@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+
+/** https://material-ui.com/customization/color/ **/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+::-webkit-scrollbar { 
+    overflow: hidden;  /* hides the scrollbars on website */
+}
+
+:root {
+    --primary: #6C63FF;
+    --secondary: #f50057;
+    --primary-dark: #4b45b2;
+    --secondary-dark: #ab003c;
+    --off-white: #f8f8f8;
+    --white: #ffffff
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    position: relative;
+    height: 100vh;
+}
+
+.main-div {
+    width: 120px;
+    height: 80vh;
+}
+
+.sub-div{
+    width: 70px;
+    height: 60px;
+    background: #000000;
+}
+
+
+.icons-div{
+    margin-top: 5vh;
+    margin-right: 3px;
+    margin-top: 30rem;
+    margin-left: 3rem;
+}
+
+.icons-div p{
+    font-size: 1.5rem;
+    color: crimson;
+    padding-left: 120px;
+    padding-bottom: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.icons-div ul {
+    list-style: none;
+    margin-left: -35px;
+    letter-spacing: 0.01rem;
+}
+
+.icons-div ul li {
+    padding: 120px;
+}
+
+i{
+    color: blue;
+    font-size: 30px!important;
+}
+
+i:hover{
+    cursor: pointer;
+    color: #c19369;
+}
+
+.main-2 {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 70px;
+    height: 100vh;
+  }
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 144px;
+    width: 86%;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+    /* .navbar li a {
+        font-size: larger;
+        color: cornsilk;
+    } */
+
+.navbar a:hover {
+    color: #c19369;
+}
+
+.navbar ul{
+    padding: 0;
+}
+
+.navbar ul li{
+    margin: 0;
+    display: inline;
+    padding-right: 140px;
+    font-size: 20px;
+    color: #9CB3BC;
+    font-weight: 800;
+    
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+    color: #c19369;
+}
+
+.portfolio {
+    color: black;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 180px;
+    margin-left: 70px;
+    letter-spacing: 0.05em;
+
+}
+
+.section-title {
+    position: absolute;
+    top: 110px;
+    left: 140px;
+    width: 40%;
+    height: auto;
+}
+
+.introduction {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Russo One', sans-serif;
+    color: #c19369;
+    letter-spacing: 0.14em; 
+    margin-bottom: 0;
+}
+
+.section-title-description {
+    margin-top: 25px;
+    letter-spacing: 0.16em;
+    font-size: 1.25rem;
+    font-family: 'Noto Sans Jp', sans-serif;
+    color: #c19369;
+}
+
+hr{
+    margin-top: 25px;
+    height: 2px;
+    background: #9CB3BC;
+    margin-bottom: 15px;
+    margin-left: 0;
+    width: 25%;
+}
+
+.content{
+    font-size: 21px;
+    color: rebeccapurple;
+}
+
+.main-pic {
+    position: absolute;
+    top: 2px;
+    left: 430px;
+    width: 40%;
+    padding: 20px 0;
+}
+
+.main-pic img {
+    padding: 50px;
+    width: 280px;
+    height: 320px;
+    border-right: 1px dotted #9CB3BC; 
+    border-radius: 50%;
+    border-width: 0.7em;    
+    /* transition: transform .5s ease-in-out; */
+}
+
+/* footer */
+.footer{
+  background-color: black;
+ padding: 0;  
+ margin: 9rem;
+ text-align: center;
+}
+
+.footer-header {
+    color: #9CB3BC;
+    font-size: 2.5rem;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 0.1rem;
+}
+
+.about-section{
+    color: white;
+    padding-bottom: 0.5rem;
+    font-size: 1.23rem;
+    padding-right: 7rem;
+    position: relative;
+}
+
+/* projects file */
+
+.nav {
+    padding: 1rem 1rem 0rem 1rem;
+    background-color: #6c63ff;
+    padding: 1rem;
+    margin: 0rem 15rem;
+}
+
+
+.nav a{
+    text-decoration: none;
+    color:crimson;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.projects a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.primary-link {
+    display: block;
+   color: red;
+   text-decoration: none;
+   font-size: 1.1rem;
+   padding: 0.5rem;
+}
+
+.secondary-link {
+   display: block;
+   color: blue;
+   text-decoration: none;
+   font-size: 1.1rem;
+   padding: 0.5rem;
+}
+.nav .active {
+    font-weight: bolder;
+}
+
+.nav {
+    background-color:var(--off-white);
+}
+
+.nav .logo {
+    color: black;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 180px;
+    letter-spacing: 0.05em;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.nav li a {
+    color: blue;
+}
+
+.nav li a:hover {
+    color: #c19369;
+}
+
+.nav ul {
+    text-align: right;
+}
+
+.projects article {
+    padding: 10px 100px 50px 50px;
+    margin-left: 200px;
+}
+
+.projects article p {
+    font-size: 1.23rem;
+}
+
+.projects article h1 {
+    color: crimson;
+}
+
+
+#container-1 {
+    box-sizing: border-box;
+    display: block;
+    padding: 1rem 20rem;
+    border-radius: 5px;
+    border-color: black;
+    margin: 20px 0px;
+    box-shadow: 1px 1px 10px 3px rgb(224, 224, 224);
+    text-align: center;
+}
